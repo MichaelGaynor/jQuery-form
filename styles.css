@@ -1,0 +1,60 @@
+
+body{
+  background-color: #f2f2f2;
+}
+div.container{
+  background-color: #fff;
+}
+
+div.main{
+  box-shadow: 0 0 10px #222;
+  padding: 20px;
+}
+
+h2{
+  color: #2A88AC;
+}
+h2 > span{
+  position: absolute;
+  text-align: center;
+  width: 43px;
+  left: -30px;
+  top: 15px;
+  background-color: #2A88AC;
+  color: #fff;
+  border-radius: 100%;
+  border: 5px solid #fff;
+}
+
+form{
+  background-color: #F8F8F8;
+}
+form > input, div.terms, button{
+  border: 0;
+  box-shadow: 1px 2px 2px #999;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 95%;
+  margin: 5px 2.5%;
+  overflow: hidden;
+}
+form > div.terms{
+  padding: 2px 0 0 0;
+}
+form > div > input.radio{
+margin-left: 25%;
+float: left;
+text-align: right;
+}
+form > div > p{
+  width: 70%;
+  float: right;
+}
+
+div.signUp{
+  background-color: #2A88AC;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  color: #fff;
+  margin-top: 2%;
+}
