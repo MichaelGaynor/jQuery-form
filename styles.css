@@ -11,6 +11,22 @@ div.main{
   padding: 20px;
 }
 
+
+div.signUp{
+  background-color: #2A88AC;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  color: #fff;
+  margin-top: 2%;
+}
+
+
+.error{
+  color: white;
+  background-color: red;
+}
+
+
 h2{
   color: #2A88AC;
 }
@@ -26,6 +42,7 @@ h2 > span{
   border: 5px solid #fff;
 }
 
+
 form{
   background-color: #F8F8F8;
 }
@@ -37,6 +54,7 @@ form > input, div.terms, button{
   width: 95%;
   margin: 5px 2.5%;
   overflow: hidden;
+  outline: none;
 }
 form > div.terms{
   padding: 2px 0 0 0;
@@ -51,10 +69,4 @@ form > div > p{
   float: right;
 }
 
-div.signUp{
-  background-color: #2A88AC;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  color: #fff;
-  margin-top: 2%;
-}
+
