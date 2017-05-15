@@ -19,5 +19,22 @@ $(document).ready(function(){
         $(errorDivClassName).html("Field cannot be empty.");
       }
     })
+
+    var password = $(".password").val();
+    var password2 = $(".password2").val();
+    var numberFound = false;
+    for (let i=0; i<password.length; i++){
+      if(isNaN(Number(password[i]))){
+        continue;
+      }else{
+        numberFound = true;
+      }
+    }
+    if (!numberFound){
+      $(".password-error").html("Your password must contain a number")
+    }
+    if (password !== password2){
+      $('.password-error').html("Your passwords do not match.")
+    };
   });
 });
